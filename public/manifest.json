@@ -1,0 +1,16 @@
+{
+  "name": "RenoConnect - Estimation de Budget Rénovation",
+  "short_name": "RenoConnect",
+  "description": "Service de consultation en ligne pour l'estimation de vos projets de rénovation intérieure",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0066CC",
+  "icons": [
+    {
+      "src": "/logowebp.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    }
+  ]
+}

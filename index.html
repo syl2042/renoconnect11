@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RenoConnect - Estimation de travaux de Rénovation en Ligne | AVEO Styles & Travaux Saint-Étienne</title>
+    <meta name="description" content="Service de consultation en ligne pour l'estimation de vos projets de rénovation intérieure à Saint-Étienne. Expertise professionnelle et devis personnalisés par AVEO Styles & Travaux." />
+    <meta name="keywords" content="rénovation Saint-Étienne, estimation budget rénovation, consultation travaux en ligne, devis rénovation visio, rénovation intérieure Loire, AVEO Styles et Travaux, rénovation maison Saint-Étienne, estimation travaux en ligne, consultation vidéo rénovation, expert travaux Saint-Étienne, entreprise rénovation 42, coût rénovation au m2, rénovation maison, rénoconnect, rénovation de salle de bians, entreprise de rénovation, rénovation intérieure" />
+    
+    <!-- Preload des ressources critiques -->
+    <link rel="modulepreload" href="/src/main.tsx" />
+    <link rel="preload" href="/fonts/inter-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/inter-medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/inter-semibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/inter-bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/logowebp.webp" as="image" type="image/webp">
+    <link rel="preload" href="/fond_renoconnect.webp" as="image" type="image/webp">
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://calendly.com">
+    <link rel="preconnect" href="https://assets.calendly.com">
+    
+    <!-- Style critique inline -->
+    <style>
+      /* Style minimal pour éviter le FOUC */
+      body { font-family: 'Inter', sans-serif; }
+    </style>
+    
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0066CC">
+    <link rel="apple-touch-icon" href="/logowebp.webp">
+    
+    <!-- SEO -->
+    <link rel="canonical" href="https://renoconnect.fr" />
+    
+    <!-- Security -->
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval';">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://renoconnect.fr/" />
+    <meta property="og:title" content="RenoConnect - Estimation de travaux de Rénovation en Ligne" />
+    <meta property="og:description" content="Service de consultation en ligne pour l'estimation de vos projets de rénovation intérieure. Expertise professionnelle et devis personnalisés." />
+    <meta property="og:image" content="https://renoconnect.fr/og-image.jpg" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://renoconnect.fr/" />
+    <meta name="twitter:title" content="RenoConnect - Estimation de travaux de Rénovation en Ligne" />
+    <meta name="twitter:description" content="Service de consultation en ligne pour l'estimation de vos projets de rénovation intérieure. Expertise professionnelle et devis personnalisés." />
+    <meta name="twitter:image" content="https://renoconnect.fr/og-image.jpg" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HomeAndConstructionBusiness",
+        "name": "Rénoconnect - AVEO Styles & Travaux",
+        "image": "/logowebp.webp",
+        "description": "Service de consultation en ligne pour l'estimation de vos projets de rénovation intérieure à Saint-Étienne",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "31, rue Jean Huss",
+          "addressLocality": "Saint-Etienne",
+          "postalCode": "42000",
+          "addressCountry": "FR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "45.4397",
+          "longitude": "4.3872"
+        },
+        "url": "https://renoconnect.fr",
+        "telephone": "+33477060808",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        },
+        "priceRange": "€€",
+        "areaServed": "Saint-Étienne et environs"
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
